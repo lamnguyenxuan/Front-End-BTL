@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="container">
+                <div class="logo">
+                    <a href=""><img src="image/lightlogo.png" alt=""></a>
+                </div>
+                <div class="menu">
+                    <ul class="menu-item">
+                        <li class="item">
+                            <a href="">Trang chủ</a>
+                        </li>
+                        <li class="item">
+                            <a href="">Sản phẩm</a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                Giới thiệu
+                                <i class="far fa-angle-down"></i>
+                            </a>
+                            <ul class="sub-menu">
+                                <div class="arrow-up pos-1"></div>
+                                <li class="sub-item"><a href="">Lịch sử phát triển</a></li>
+                                <li class="sub-item"><a href="">Thành tựu</a></li>
+                                <li class="sub-item"><a href="">Tầm nhìn sứ mệnh</a></li>
+                            </ul>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                Trang tin tức
+                                <i class="far fa-angle-down"></i>
+                            </a>
+                            <ul class="sub-menu">
+                                <div class="arrow-up pos-2"></div>
+                                <li class="sub-item"><a href="">Góc báo chí</a></li>
+                                <li class="sub-item"><a href="">Thông tin thị trường</a></li>
+                                <li class="sub-item"><a href="">Tin tức</a></li>
+                            </ul>
+                        </li>
+                        <li class="item">
+                            <a href="">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Tìm kiếm...">
+                    <a href=""><i class="fas fa-search"></i></a>
+                </div>
+                <div class="cart">
+                    Giỏ hàng
+                    <a href=""><i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <!-- slider-start -->
+            <div class="slider">
+                <div class="slides">
+                    <!-- slide images start -->
+                    <div class="slide first">
+                        <img src="./image/background-1.jpg" alt="">
+                        <div class="txt">
+                            <div class="txt1">
+                                <h1 id = "h1">Thực phẩm hữu cơ 1</h1>
+                                <p>Tốt cho sức khỏe, tốt cho cuộc sống 1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./image/background-2.jpg" alt="">
+                        <div class="txt">
+                            <div class="txt1">
+                                <h1 id = "h1">Thực phẩm hữu cơ 2</h1>
+                                <p>Tốt cho sức khỏe, tốt cho cuộc sống 2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./image/background-3.jpg" alt="">
+                        <div class="txt">
+                            <div class="txt1">
+                                <h1 id = "h1">Thực phẩm hữu cơ 3</h1>
+                                <p>Tốt cho sức khỏe, tốt cho cuộc sống 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slide images end -->
+
+                    <!-- onclick js -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                <div class="dotsbox">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                <!-- /onclick js -->
+                    
+                </div>
+            </div>
+            <!-- slider-end -->
+            <div class="introduce">
+                <h1>Giới thiệu</h1>
+                <div class="introduce-main">
+                    <img src="image/introduce.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
